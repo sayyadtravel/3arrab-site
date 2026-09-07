@@ -1,7 +1,7 @@
 {
     "product": "Arrab Commercial On-prem",
     "release": "2026.09-commercial",
-    "generated_at": "2026-09-07T05:13:13+00:00",
+    "generated_at": "2026-09-07T19:31:00+00:00",
     "downloads": {
         "windows": {
             "label": "Windows",
@@ -15,8 +15,8 @@
         "macos": {
             "label": "macOS",
             "filename": "arrab-macos-2026.09-commercial.zip",
-            "sha256": "ec2daf2c0c65acf07302556603daf0061f8ca7e25ac2f1104a8f056349c72c9b",
-            "size_bytes": 10756995,
+            "sha256": "15a9bb2ebace5bdfa3aa44aa4472923cb6c15812aa64ec305dabdf46531cd9d7",
+            "size_bytes": 10758716,
             "size_text": "10.26 MB",
             "guide": "macos-installation-guide.md",
             "summary": "Commercial kit for macOS customers using Docker Desktop."
