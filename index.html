@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>عرّاب | النسخة التجارية المملوكة</title>
+  <meta name="description" content="النسخة التجارية المملوكة من عرّاب للتنزيل الرسمي على Windows وmacOS مع دليل التثبيت ومتطلبات التشغيل.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <span class="eyebrow">Commercial On-prem Release</span>
+      <h1>عرّاب منتج تجاري جاهز للبيع والتسليم</h1>
+      <p class="sub">
+        هذه البوابة مخصصة لتنزيل النسخة التجارية المملوكة من عرّاب، مع مساري Windows وmacOS، ودليل التثبيت،
+        ومعلومات الإصدار التي يحتاجها المشتري قبل التشغيل. بعد التثبيت تبقى النسخة مستقلة عن الموقع ولا تعتمد
+        على استمرار اتصالها بخدمات عرّاب.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <span class="pill">الإصدار</span>
+          <h3>إصدار التسليم الحالي</h3>
+          <p class="meta"><code>2026.09-commercial</code><br>تم تجهيز هذه البوابة في <code>2026-09-07 05:13 UTC</code></p>
+        </div>
+        <div class="card">
+          <span class="pill">نمط التشغيل</span>
+          <h3>نسخة مملوكة On-prem</h3>
+          <p class="muted">تشغيل مستقل عند العميل. ليست SaaS، ولا تحتاج بقاء الموقع بعد اكتمال التثبيت.</p>
+        </div>
+        <div class="card">
+          <span class="pill">الدعم</span>
+          <h3>ملفات التسليم الأساسية</h3>
+          <p class="muted">حزمة المنصة، دليل التثبيت، وملف التحقق <code>SHA256</code> لكل تنزيل.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="margin-top:24px;">
+      <h2>التنزيلات الرسمية</h2>
+      <div class="grid">
+        <div class="card">
+          <span class="pill">Windows</span>
+          <h3>نسخة Windows التجارية</h3>
+          <p class="muted">مسار أبسط للمشتري النهائي، ويتضمن bootstrap وتثبيتًا موجّهًا على ويندوز.</p>
+          <a class="dl" href="downloads/arrab-windows-2026.09-commercial.zip">تنزيل نسخة Windows</a>
+          <p class="meta">
+            الحجم: <code>10.26 MB</code><br>
+            SHA256: <code>44ceae6e8413638e840d8bcec0d8faa6f766f0ccf30f9854ce50ff19c74febcb</code><br>
+            الدليل: <a href="downloads/windows-installation-guide.md">Windows Guide</a><br>
+            التحقق: <a href="downloads/arrab-windows-2026.09-commercial.zip.sha256.txt">SHA256 File</a>
+          </p>
+        </div>
+        <div class="card">
+          <span class="pill">macOS</span>
+          <h3>نسخة macOS التجارية</h3>
+          <p class="muted">مخصصة للتشغيل على macOS عبر Docker Desktop مع تثبيت مستقل ومنظم.</p>
+          <a class="dl" href="downloads/arrab-macos-2026.09-commercial.zip">تنزيل نسخة macOS</a>
+          <p class="meta">
+            الحجم: <code>10.26 MB</code><br>
+            SHA256: <code>ec2daf2c0c65acf07302556603daf0061f8ca7e25ac2f1104a8f056349c72c9b</code><br>
+            الدليل: <a href="downloads/macos-installation-guide.md">macOS Guide</a><br>
+            التحقق: <a href="downloads/arrab-macos-2026.09-commercial.zip.sha256.txt">SHA256 File</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="margin-top:24px;">
+      <h2>ما الذي يحتاجه المشتري</h2>
+      <ul class="muted">
+        <li>Windows: تشغيل الحزمة ثم فتح <code>0-setup-arrab.cmd</code> واتباع خطوات bootstrap.</li>
+        <li>macOS: فك الحزمة ثم فتح <code>0-setup-arrab.command</code> مع توفر <code>Docker Desktop</code>.</li>
+        <li>البرنامج بعد التثبيت يعمل محليًا أو على خادم العميل باستقلال عن `3arrab.com`.</li>
+        <li>ملفات الترخيص والتحديثات تبقى ضمن مسار التسليم التجاري ولا تتطلب منصة SaaS.</li>
+      </ul>
+    </section>
+
+    <section class="section" style="margin-top:24px;">
+      <h2>ملاحظات مهمة قبل الاعتماد</h2>
+      <ul class="muted">
+        <li>هذه صفحة تنزيل وتسليم رسمية، وليست بيئة تشغيل سحابية للبرنامج.</li>
+        <li>ينبغي على المشتري حفظ ملف الحزمة وملف <code>SHA256</code> ودليل التثبيت معًا.</li>
+        <li>إذا احتاج العميل تنصيبًا أوليًا أو ترخيصًا خاصًا بعدد فروع محدد، يُسلَّم ذلك ضمن إجراءات البيع والدعم.</li>
+      </ul>
+    </section>
+
+    <p class="footer">
+      © Arrab Commercial Delivery Portal. النسخة التجارية المملوكة قابلة للتنزيل الرسمي من هذا الموقع، ثم تعمل
+      باستقلال بعد اكتمال التثبيت.
+    </p>
+  </div>
+</body>
+</html>
